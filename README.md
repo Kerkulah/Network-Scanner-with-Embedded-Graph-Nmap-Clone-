@@ -18,6 +18,9 @@ Download and install packages listed in the requirement.txt  → || pip install 
 <img src="https://imgur.com/0zC8zrW.jpg"  height="80%" width="80%">
 <h2> Example:</h2>
 <img src="https://imgur.com/MEj4Vey.jpg"  height="80%" width="80%">
+
+<h2> Window VirtualBox with open Ports :</h2>
+<img src="https://imgur.com/WP5oXpG.jpg"  height="80%" width="80%">
 <br />
 
 
