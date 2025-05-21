@@ -10,11 +10,14 @@ This project is a network scanner using python with a Tkinter GUI that scans a t
 <p align="center">
  <br/>
 
-Download and install packages listed in the requirement.txt  → || pip install requirements.txt  → 
+Download and install packages listed in the requirement.txt  → || pip install -r requirements.txt  → 
 
 <br />
 <br />
-<img src="https://imgur.com/vIiDI7t.jpg"  height="80%" width="80%">
+<h2>UI :</h2>
+<img src="https://imgur.com/0zC8zrW.jpg"  height="80%" width="80%">
+<h2> Example:</h2>
+<img src="https://imgur.com/MEj4Vey.jpg"  height="80%" width="80%">
 <br />
 
 
