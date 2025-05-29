@@ -2,7 +2,7 @@ import socket
 import threading
 import tkinter as tk
 from tkinter import messagebox, ttk
-from scapy.all import IP, TCP, UDP, sr1
+from scapy.all import IP, TCP, sr1
 import csv
 import networkx as nx
 import matplotlib.pyplot as plt
@@ -31,7 +31,7 @@ def scan_udp_port(dst_ip, port):                              # here we create U
         sock.sendto(b'', (dst_ip, port))
         sock.settimeout(2)
         try:
-            data, addr = sock.recvfrom(1024)
+            _, _ = sock.recvfrom(1024)
             return f"Port {port} (UDP) is OPEN", "green"
         except socket.timeout:
             return f"Port {port} (UDP) is FILTERED or no response", "blue"
@@ -168,3 +168,4 @@ window.grid_rowconfigure(3, weight=1)
 window.grid_columnconfigure(0, weight=1)
 
 window.mainloop()
+
